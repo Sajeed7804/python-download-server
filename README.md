@@ -27,7 +27,7 @@ Includes **authentication**, **modern UI**, and **HTTPS** (self-signed) support.
 **Upload/Download Demo GIF:**  
 ![Demo GIF](screenshots/demo.gif)
 
-> _Replace the screenshots/GIF with your own captures._
+
 
 ---
 
