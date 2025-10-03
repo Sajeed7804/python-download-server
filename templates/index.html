@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>Available Files</h3>
+<ul class="list-group">
+  {% for f in files %}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        {{f}}
+        <a href="/download/{{f}}" class="btn btn-primary btn-sm">Download</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}
